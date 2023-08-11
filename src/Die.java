@@ -1,10 +1,14 @@
 public class Die {
 
-    public void faceValue(){
-        //
-    }
+    public int faceValue;
+
+
 
     public void roll(){
 
+    }
+
+    public int getFaceValue(){
+        return faceValue;
     }
 }
